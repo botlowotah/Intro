@@ -64,3 +64,10 @@ if (temp2 < 0) {console.log('salta');
    }
 
    
+   console.clear()
+
+   if(4 === '4') {
+   console.log ('tenkina');
+   } else {
+   console.log('Ne-tenkina');
+   }
