@@ -23,16 +23,20 @@ console.log(luckyNumbers[5]);
 console.log(luckyNumbers[6]);
 console.log(luckyNumbers[7]);
 
+console.log(students);
 console.log(students[0]);
 console.log(students[1]);
 console.log(students[2]);
 console.log(students[3]);
 console.log(students[4]);
 console.log(students[5]);
-console.log(students[6]);
-console.log(students[7]);
+console.log(students[-1]);
 
 console.log(empty.length);
+console.log(luckyNumbers.length);
+console.log(students.length);
+
+
 // const vardai = ['a', 'b', 'c', 'd'];
 
 console.clear()
@@ -69,19 +73,41 @@ console.log(sentence1);
 
 console.log('---- sekantis patiekalas ----');
 
-/*nst sentence2 = 'Pateikalui reikes: ';
-
+let sentence2 = 'Patiekalui reikes: ';
 sentence2 += dictionary[0] + ', ';
 sentence2 += dictionary[1] + ', ';
 sentence2 += dictionary[2] + ', ';
 sentence2 += dictionary[3] + ', ';
 sentence2 += dictionary[4] + ', ';
 sentence2 += dictionary[5] + ', ';
-sentence2 += dictionary[6] + ', ';
-sentence2 += dictionary[7] + '.';
+sentence2 += dictionary[6] + '.';
 console.log(sentence2);
 
-console.clear() */
+console.clear() 
+
+let index = 0;
+let sentence3 = 'Patiekalui reikes: ';
+
+sentence3 += dictionary[index] + ', ';
+
+index += 1;
+sentence3 += dictionary[index] + ', ';
+
+index += 1;
+sentence3 += dictionary[index] + ', ';
+
+index += 1;
+sentence3 += dictionary[index] + ', ';
+
+index += 1;
+sentence3 += dictionary[index] + ', ';
+
+index += 1;
+sentence3 += dictionary[index] + ', ';
+
+index += 1;
+sentence3 += dictionary[index] + '.';
+console.log(sentence3);
 
 let k = 0;
 k = k + 1;
@@ -90,6 +116,7 @@ k++;
 ++k;
 
 let  i =0
+
 let sentence4 = 'patiekalui reikes ' ;
 sentence4 += dictionary[i++] + ', ';
 sentence4 += dictionary[i++] + ', ';
@@ -100,6 +127,38 @@ sentence4 += dictionary[i++] + ', ';
 sentence4 += dictionary[i++] + '. ';
 
 console.log(sentence4);
+
+let j = -1;
+let sentence5 = '++ Patiekalui reikes: ';
+sentence5 += dictionary[++j] + ', ';
+sentence5 += dictionary[++j] + ', ';
+sentence5 += dictionary[++j] + ', ';
+sentence5 += dictionary[++j] + ', ';
+sentence5 += dictionary[++j] + ', ';
+sentence5 += dictionary[++j] + ', ';
+sentence5 += dictionary[++j] + '.';
+console.log(sentence5);
+
+console.clear() 
+
+function sumInterval(start, end) {
+  let sum = 0;
+  for (let i = start; i <= end; i++) {
+    sum += i;
+  }
+  return sum;
+}
+
+// Rezultatai
+console.log(" a " + sumInterval(0, 0)); 
+console.log(" b " + sumInterval(0, 4)); 
+console.log(" c " + sumInterval(0, 100)); 
+console.log(" d " + sumInterval(574, 815));
+console.log(" e " + sumInterval(-50, 50));
+console.log(" f " + sumInterval(-70, 30));
+
+
+
 
 
 
