@@ -4,6 +4,7 @@
   "description": "js intro",
   "main": "index.js",
   "scripts": {
+    "array" : "node --watch ./js/6-array.js",
     "darbai" : "node --watch ./js/darbai.js",
     "nd" : "node --watch ./js/ND.js",
     "if" : "node --watch ./js/5-if.js",
