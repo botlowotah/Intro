@@ -149,7 +149,7 @@ function sumInterval(start, end) {
   return sum;
 }
 
-// Rezultatai
+
 console.log(" a " + sumInterval(0, 0)); 
 console.log(" b " + sumInterval(0, 4)); 
 console.log(" c " + sumInterval(0, 100)); 
@@ -157,6 +157,28 @@ console.log(" d " + sumInterval(574, 815));
 console.log(" e " + sumInterval(-50, 50));
 console.log(" f " + sumInterval(-70, 30));
 
+
+function isAdult ()
+{
+    let age = (person[1]person[2]person[3]person[4]+mok[5])/5;
+    if(vidurkis >=3.5)
+    {
+        console.log(mok[0] + " islaike, jo vidurkis: " + vidurkis);
+
+    }
+    else
+    {
+        let NaujasVidurkis = ((vidurkis*5)+10)/6;
+        console.log(mok[0], "neislaike. Jo dabartinis vidurkis: " + vidurkis);
+        if(NaujasVidurkis >= 3.5)
+        {
+            console.log(mok[0] + "islaikitu kursa jei gautu viena desimtuka. ");
+        }
+    }
+}
+    MokinioVidurkis(Mokinys1)
+    MokinioVidurkis(Mokinys2)
+    MokinioVidurkis(Mokinys3)
 
 
 

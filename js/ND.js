@@ -19,7 +19,7 @@ console.log(e);
 let f = 'Vanduo';
 console.log(f);
 
-//Sukurti 3 sąrašo tipo kintamuosius su penkiomis skaičių/teksto tipo reikšmėmis
+// Sukurti 3 sąrašo tipo kintamuosius su penkiomis skaičių/teksto tipo reikšmėmis
 
 let n1 = [1,2,3,4,5];
 console.log(n1);
@@ -40,7 +40,7 @@ let akordai = ['Am', 'A', 'Dm', 'D', 'C'];
 console.log(akordai);
 
 
-//CIKLO (for) PANAUDOJIMAS
+// CIKLO (for) PANAUDOJIMAS
 
 
 // Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):

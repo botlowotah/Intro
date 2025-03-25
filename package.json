@@ -4,6 +4,10 @@
   "description": "js intro",
   "main": "index.js",
   "scripts": {
+  "adult" : "node --watch ./task/adult.js",
+    "text" : "node --watch ./task/text-size.js",
+
+
     "array" : "node --watch ./js/6-array.js",
     "darbai" : "node --watch ./js/darbai.js",
     "nd" : "node --watch ./js/ND.js",
