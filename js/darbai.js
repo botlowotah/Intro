@@ -87,3 +87,64 @@ function MokinioVidurkis (mok)
     MokinioVidurkis(Mokinys1)
     MokinioVidurkis(Mokinys2)
     MokinioVidurkis(Mokinys3)
+
+
+const filmas11 = ['greitis', 'veiksmo', 7.5]
+const filmas12 = ['pjūklas', 'siaubo', 6]
+const filmas13 = ['klyksmas', 'siaubo', 8]
+const filmas14 = ['narnija', 'fantazijos', 6]
+const filmas15 = ['baltija', 'istorinis', 6]
+
+const ManoBalas = 7;
+const ManoZanras = 'siaubo';
+const DraugoBalas = 9;
+
+function filmoPasiulymas (filmasA, filmasB, filmasC, balas, zanras)
+{
+    let ArYraFilmas = false;
+
+    if (filmasA[2]>=balas && filmasA[1] == zanras)
+    {
+        console.log ("Jums tiktų: " + filmasA[0]);
+        ArYraFilmas = true;
+    }
+    if (filmasB[2]>=balas && filmasB[1] == zanras)
+    {
+        console.log ("Jums tiktų: " + filmasB[0]);
+        ArYraFilmas = true;
+    }
+    if (filmasC[2]>=balas && filmasC[1] == zanras)
+    {
+        console.log ("Jums tiktų: " + filmasC[0]);
+        ArYraFilmas = true;
+    }
+
+    if(ArYraFilmas == false)
+    {
+        console.log('Jums tinkamų filmų nėra')
+    }
+}
+
+
+filmoPasiulymas(filmas11, filmas12, filmas14, ManoBalas, ManoZanras)
+
+
+
+
+
+const skaiciai1 = [1, 2, 3];
+
+function addNum (sk)
+{
+    return (sk[0]+sk[1]+sk[2]);
+}
+
+function tellNum (sk)
+{
+    console.log(sk[0]);
+}
+
+//let suma = addNum(skaiciai1);
+console.log(addNum(skaiciai1));
+
+tellNum(skaiciai1);

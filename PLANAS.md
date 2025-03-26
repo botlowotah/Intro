@@ -16,12 +16,12 @@
 
  - metodai
 - string methods
-- number 
-- array
+- number v
+- array v
 - object
 
 - palyginimas
-- if
+- if v
 - ternary
 - switch
 
