@@ -28,7 +28,7 @@
     "boolean" : "node --watch ./js/4-boolean.js",
     "function" : "node --watch ./js/3-function.js",
     "string" : "node --watch ./js/2-string.js",
-    "auto" : "node --watch ./js/1-number.js",
+    "number" :  "node --watch ./js/1-number.js",
     "nr" : "node ./js/1-number.js",
     "js": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

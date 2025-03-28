@@ -1,59 +1,56 @@
-/* 
-Kintamuju iniciavimas
-- const (default)
-- let (kai reiksme gali keistis)
--var (reciausiai naudojamas)
-NUMBER - skaiciai
-- sveikieji, desimtainiai
-- teigiami, neigiami
-- Infinity, 
-- NaN (skaiciaus tipo klaida) 
+	/* skaiciai (number):
+	 sveikieji, desimtainiai, teigiami, neigiami, infinity, (NaN skaiciaus tipo klaida).
+		+, -, *, /, ** (kelimas laipsniu 7**5 septyni pakelta penktuoju laipsniu ), % (dalybos liekana) \\
 
-Aritmetiniai opertatoeriai: +=, -=, *=, /=, **=
-(kelimas laipsniu), % (dalybos liekana)
+	-Kintamuju iniciavimas:
 
-- 
-*/
-const a = 1;
-console.log(a);
+	const (default) : */
 
-const b = 2;
-console.log(b); 
+  const a = 1
+  console.log(a)
 
-const c = a + b; 
-console.log(c);
 
-const varna = 81815
-console.log(varna);
+  const b = 2
+  console.log(b)
 
-const  n1 =7+5;
-console.log(n1);
 
-const n2 = 7-5;
-console.log(n2);
+  const c = a + b 
+  console.log(c)
 
-console.log('------------ ');
 
-let age = 24
-console.log(age);
+   // (skaiciais negalima pradeti)
+const n1 = 7 + 5
+console.log(n1)
+ 
 
-age = 25;
-console.log(age); 
 
-console.clear();
-let sum = 10
-console.log(sum);
 
-sum = sum + 5;
-console.log(sum);       
-  
-let sum2 = 10;
-console.log(sum2);
-sum2 += 1
-console.log(sum2);
-console.log(Infinity);
-console.log(Infinity + 1);
-console.log(Infinity / 2);
-console.log(2 ** 2); 
-console.log(0 / 0 )
-console.log(2 / 0)
+//let (kai reiksme gali kisti) :
+
+  let age = 99
+  console.log(age)
+// nuo cia reiskme keiciasi 
+  age = 100
+  console.log(age)
+
+// nauja priskiriama reiksme \\
+  let sum = 10
+  console.log(sum)
+
+
+  sum = sum + 5
+ console.log(sum)
+
+
+ sum = sum + 5
+ console.log(sum)
+
+ 
+   //  supaprastinta versija +=, -=, *=, /=, **=
+
+  let sum2 = 10
+  console.log(sum2)
+
+
+  sum2 += 5
+  console.log(sum2)

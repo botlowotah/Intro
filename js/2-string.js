@@ -1,40 +1,37 @@
 /* STRING - tekstas, simboliu grandine */
 
-const a = "hello" 
-console.log(a) 
-const b = "world"
-console.log(b)
+	// tekstas (string) [tekstas] :
+    
+  const a = 'Labas '
+  console.log(a)
 
 
-/*tkstines reiksmes iniciavimas;
-"TEKSTAS" 
-*/ 
+  let b = 'Rytas'
+ console.log(b)
 
-// vienguba kabute
-const k1 = "Viengubos (') kabutes"
-console.log(k1)
+  b = 'Diena'
+ console.log(b)
 
-//dvigubos kabutes 
-const k2='dvigubos(") kabutes'
-console.log(k2) 
+const name1 = "Jonas"
+console.log(name1)
 
+const name2 = '"Jonas"'
+console.log(name2)
 
+const name = 'Jonas'
+const surname = 'Jonaitis'
+const fullname = name + ' ' + surname
+console.log(fullname)
 
-// is dveju zodziu padaryti viena bendra teksta
-const name = "Mindaugas"
-const surname = "Germanavicius"
-const fullname = name + '  ' +  surname
-console.log(fullname) 
+// Vienguba (') ir dviguba (") kabutes
 
-//viengubos(')  ir   dvigubos(")kabutes
+const a1 = "Vienguba (') ir" +' dviguba (") kabutes'
+const a2 ='  ienguba (\') kabute'
+console.log(a1+a2)
+console.log(a1)
+console.log(a2)
 
-const k12 ="viengubos(') ir" + 'dvigubos(")kabutes.'
-console.log(k12) 
-
-
-//vienguba kabute (')
-const k3= 'Vienguba (\') kabute' 
-console.log(k3) 
+console.clear()
 
 /*
 <header>
@@ -47,58 +44,95 @@ console.log(k3)
 </header>
 */
 
-const html= '<header>\r\n\
- \t  <img>\r\n\
-   \t<nav>\r\n\
-   \t    <a></a>\r\n\
-    \t   <a></a>\r\n\
-     \t  <a></a>\r\n\
- \t  </nav>\r\n\
-</header'
-console.log(html) 
+  /* Specialieji simboliai:
+- \ (privercia sekanti simboli buti spausdintinu)
+- \r (return, kursorius grizta i eilutes pradzia)
+- \n (new line, kursorius nusileidzia viena eilute zemyn)
+- \t (tab)
+*/
 
-console.clear() 
+const html = '<header>\r\n\
+\t<img>\r\n\
+\t<nav>\r\n\
+\t\t<a></a>\r\n\
+\t\t<a></a>\r\n\
+\t\t<a></a>\r\n\
+\t</nav>\r\n\
+</header>';
+console.log(html);
+
+const html2 = '<header>\n\
+\t<img>\n\
+\t<nav>\n\
+\t\t<a></a>\n\
+\t\t<a></a>\n\
+\t\t<a></a>\n\
+\t</nav>\n\
+</header>';
+console.log(html2);
+
+const html3 = '\
+<header>\r\
+    <img>\r\
+    <nav>\r\
+        <a></a>\r\
+        <a></a>\r\
+        <a></a>\r\
+    </nav>\r\
+</header>';
+console.log('-------------------');
+console.log(html3);
+
+console.clear()
 
 
+// Maryte yra viena is 4 legendiniu studentu.
 
-// Maryte yra viena is 4 legendiniu studentu
-const studentname = `Maryte`
+const studentName = 'Maryte'
 const amount = 4
-const student  = ` ${studentname} yra viena/s is ${amount} legendiniu studentu.`
+const student = studentName+' yra viena/s is '+ amount+ ' legendiniu studentu.'
+console.log(student)
 
-console.log(student) 
-
- const word =`pomidoras`
+console.log('Arba su backtiku')
  
- const wordSymbolsCount = word.lenght
+ const student2 = `${studentName} yra vina/s is ${amount} legendiniu studentu.`
+console.log(student2)
+
+ // Simboliu kiekio nustatymas tekste(reiksme.length)
+
+ const word = 'zodis'
+ const wordSymbolsCount = word.length
+
  console.log(word)
  console.log(wordSymbolsCount)
 
- const textSize = `hello world`.lenght
+ //skaiciu nustatymas kaip simboliu
 
- const text =   'Lavasas' 
- const firstSymbol = text [0]
- console.log(firstSymbol)
-console.log('paraidziui')
+const age = 99;
 
- console.log(text[0])
+const ageDigitsCount = ('' + age).length;
+console.log(ageDigitsCount);
+
+const ageDigitsCount2 = age.toString().length;
+console.log(ageDigitsCount2);
+
+//pirmo simbolio nustatymas
+
+const text = 'Zodis'
+const fisrstSymbol = text [0]
+console.log(text[0])
 console.log(text[1])
 console.log(text[2])
 console.log(text[3])
 console.log(text[4])
-console.log(text[5])
-console.log(text[6])
-
-console.log(text[0] +   text [1])  
+console.log(text[0]+text[1]+text[2]+text[3]+text[4])
 
 
-
-
-// Zodyje "sachmatai" pirmoji raide yra "S"
-
-const game  = 'sachmatai'
-const gameSentence = `zodyje "${game}" pirmoji raide yra "${game[0]}" `
-console.log(gameSentence)
+const s1 ='Sachmatai'
+const firstSymbol = s1 [0]
+const tekstas = `Zodyje "${s1}" pirmoji raide yra "${firstSymbol}"`
+console.log(tekstas)
+  
 
 
 
