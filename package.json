@@ -9,6 +9,15 @@
     "text" : "node --watch ./task/text-size.js",
     "multiply" : "node --watch ./task/multiply.js",
     "marks" : "node --watch ./task/marks-average.js",
+    "stringr" : "node --watch ./task/string-reverse.js",
+    "intervalcount" : "node --watch ./task/interval-count.js",
+    "intervalsum" : "node --watch ./task/interval-sum.js",
+    "multitable" : "node --watch ./task/multi-table.js",
+    "digitcount" : "node --watch ./task/digit-count.js",
+
+
+
+
 
     "for" : "node --watch ./js/8-for.js",
     "typeof" : "node --watch ./js/7-typeof.js",

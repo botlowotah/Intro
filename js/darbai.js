@@ -148,3 +148,6 @@ function tellNum (sk)
 console.log(addNum(skaiciai1));
 
 tellNum(skaiciai1);
+
+
+
