@@ -133,6 +133,8 @@ const firstSymbol = s1 [0]
 const tekstas = `Zodyje "${s1}" pirmoji raide yra "${firstSymbol}"`
 console.log(tekstas)
   
+console.clear()
+
 
 
 

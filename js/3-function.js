@@ -1,149 +1,94 @@
-function pavadinimas () { 
-    // logika
+function tuscia() {
+
 }
 
-const b = pavadinimas ();
-const a = pavadinimas ();
+const a = tuscia()
+
+const b = tuscia()
+
 console.log(a)
 console.log(b)
+console.log(tuscia())
 
-function penki () {
-    return 5
+function trys() {
+return 3
 }
-const c = penki ()
+const c = trys()
 console.log(c)
 
-function hi  () {
-    return 'labas!'
+function hiPerson (names) {
+return `Labas, ${names}!` 
 }
-const d = hi()
-console.log (d)
 
-// Jonas -> Labas, Jonas!
-
-function hiPerson(name) {
-    return `Labas, ${name}!`
-}
-// ARBA return 'Labas, ' +name + '!' 
 console.log(hiPerson('Jonas'))
-console.log(hiPerson('Bronius'))
-console.log(hiPerson('Antanas'))
-console.log(hiPerson('Tomas'))
 
-console.log (hiPerson())
 
-// 2+2 = 4
-// 7+5 = 12
 
-function sum(nr, nrII) {
-    return nr + nrII
+
+//7 + 41
+//6 - 15
+
+function sum(num1, num2) {
+return num1 + num2
 }
+const d = (7, 41)
+console.log(d)
 
-const e = sum(2, 2)
+function sum2(num1,num2) {
+return num1-num2}
+const e = (6, 15)
 console.log(e)
 
-const f = sum(4, 4)
-console.log(f)
+//100 --> 121
+//200 --> 242
+//73 --> 88.33
 
-const g = sum(-8, +9)
+function priceWithVAT(price) {
+return price * 1.21 + ' Eur'
+}
+const g = priceWithVAT (100)
 console.log(g)
-console.clear()
 
 
-//                                 PVM SKAICIAVIMAS
+const h = priceWithVAT (200)
+console.log(h)
 
-// 10--> 121 Eur
-// 200 --> 242 Eur
-// 73 --> 88,33 Eur
 
-function priceWithVAT(price) {                      
-    
-    return price * 1.21 + ' Eur'
-}
-const p1 = priceWithVAT (100);
-
-console.log(p1);
-
-const p2 = priceWithVAT (200);
-
-console.log(p2);
-
-const p3 = priceWithVAT (73);
-
-console.log(p3);
+const i = priceWithVAT (73)
+console.log(i)
 
 console.clear()
- 
 
-// Jonas -> Zodis "Jonas" yra sudarytas is 5 raidziu
-// Pertas -> Zodis "Petras" yra sudarytas is 6 raidziu
-// Bronius -> Zodis "Bronius" yra sudarytas is 7 raidziu
-// Tomas -> Zodis "Tomas" yra sudarytas is 5 raidziu
+// Zodis "Jonas" yras sudarytas is 5 raidziu.
 
-function nameLenght (name) {
-    const size = name.length;
-    return `Zodis = "${name}" yra sudarytas is ${size} raidziu.`
+function nameLength (name) {
+const size = name.length
+return `Zodis  "${name}"  yra sudarytas is ${size} raidziu.`
 
 }
 
- const nl1 = nameLenght('Jonas');
- const nl2 = nameLenght('Petras');
- const nl3 = nameLenght('Bronius');
- const nl4 = nameLenght('Tomas');
- console.log(nl1);
- console.log(nl2);
- console.log(nl3);
- console.log(nl4);
+const nl1 = nameLength ('Jonas');
+const nl2 = nameLength ('Maryte');
+const nl3 = nameLength ('Tadas');
+console.log(nl3);
+console.log(nl2);
+console.log(nl1);
 
- // 5-> gautas skaicius 5
- // -13 -> Gautas skaicius -13
-// 777 -> gaautas skaicius 777
+function numbers (number) {
 
-function gotNumber(n) {
-   // return 'Gautas skaicius: ' + n + '.';
-   return `Gautas skaicius: ${n}.`
-} 
-
-const gn1 = gotNumber(5);
-const gn2 = gotNumber (-13);
-const gn3 = gotNumber (777);
-console.log(gn1)
-console.log(gn2)
-console.log(gn3)
-
-console.clear() 
+return `Gautas skaicius: ${number}.`
+}
+const nr1 = numbers (5)
+const nr2 = numbers (-13)
+const nr3 = numbers (777)
+console.log(nr1)
+console.log(nr2)
+console.log(nr3)
 
 
-/* function sum(a, b) {
-    const result = a + b;
-    return `${a} + ${b} = ${result}`;
+function suma(a, b) {
+const result = a + b
+return `${a} + ${b} = ${result}`
 }
 
-/* console.log(sum(2, 2));
-console.log(sum(7, 5));
-console.log(sum(-7, 15));
-console.log(sum(748562514562, 148562514562)); */
-
-//ND - perdaryti analogiskai su -, * ir / operacijomis
-
-function sum(a, b) 
-{const result = a * b;
-    return `${a} * ${b} = ${result}`;
-}
-console.log(sum(2, 2))
-
-function sum(c, d) 
-{const result = c + d;
-    return `${c} + ${d} = ${result}`;
-} 
-console.log(sum(2, 2))
-
-function sum(e, f) 
-{const result = e - f;
-    return `${e} - ${f} = ${result}`;
-}
-console.log(sum(2, 2))
-
-
-
-
+console.log(suma(2, 2))
