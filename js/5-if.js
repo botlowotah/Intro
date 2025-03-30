@@ -4,7 +4,15 @@ IF - palyginimo savyga
 ( ! ) = Zodis Ne. 
 
 palyginimo operatoriai:
--visi: >, <, >=, <=, ==, ===, !=, !==
+-visi: 
+> (daugiau)
+< (maziau)
+>= (daugiau arba lygu)
+<= (maziau arba lygu)
+== (ar lygu)
+=== (ar lygu)
+!= (ne lygu)
+!== (ne lygu)
 -naudotini:>, <, >=, <=, ===, !==
 -nenaudotini: ==, !=
 
@@ -71,3 +79,13 @@ if (temp2 < 0) {console.log('salta');
    } else {
    console.log('Ne-tenkina');
    }
+console.clear()
+
+
+   if (2 < 1) {
+   console.log('Taip')
+   } else {
+   console.log('Ku cia Kurwa pjauni')
+   }
+    console.clear()
+    

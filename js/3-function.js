@@ -74,6 +74,8 @@ console.log(nl3);
 console.log(nl2);
 console.log(nl1);
 
+// return 'Gautas skaicius: ' + n + '.';
+
 function numbers (number) {
 
 return `Gautas skaicius: ${number}.`
@@ -84,6 +86,10 @@ const nr3 = numbers (777)
 console.log(nr1)
 console.log(nr2)
 console.log(nr3)
+
+// 2, 2     ->  2 + 2 = 4
+// 7, 5     ->  7 + 5 = 12
+// -7, 15   ->  -7 + 15 = 8
 
 
 function suma(a, b) {

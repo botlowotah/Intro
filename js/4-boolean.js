@@ -9,7 +9,8 @@ loginiai operatoriai:
 - && - and (ir) (prioritetas, kaip daugyboje)
 - || - or (arba)
 
-
+Realiai kai aplink && false tai visas rezultatas bus false
+o kai || bent vienas true tai visas true
  */
 
 const isEven = true;
