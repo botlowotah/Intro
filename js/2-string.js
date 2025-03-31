@@ -95,7 +95,7 @@ console.log(student)
 
 console.log('Arba su backtiku')
  
- const student2 = `${studentName} yra vina/s is ${amount} legendiniu studentu.`
+ const student2 = `${studentName} yra viena/s is ${amount} legendiniu studentu.`
 console.log(student2)
 
  // Simboliu kiekio nustatymas tekste(reiksme.length)

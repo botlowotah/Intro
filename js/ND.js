@@ -74,4 +74,19 @@ console.log(text[2]);
 console.log(text[1]);
 console.log(text[0]);
 
+console.clear()
+
+function abbrevName(){
+const name = 'Sam'
+const lastName = 'Harris'
+const n1 = name [0]
+const n2 = lastName [0]
+return `${n1}.${n2}`}
+console.log(abbrevName(n1,n2))
+
+
+
+
+
+
 
