@@ -151,3 +151,7 @@ tellNum(skaiciai1);
 
 
 
+console.clear()
+
+
+let 
