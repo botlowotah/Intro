@@ -158,7 +158,7 @@ console.log(" e " + sumInterval(-50, 50));
 console.log(" f " + sumInterval(-70, 30));
 
 
-function isAdult ()
+/*function isAdult ()
 {
     let age = (person[1]person[2]person[3]person[4]+mok[5])/5;
     if(vidurkis >=3.5)
@@ -178,7 +178,8 @@ function isAdult ()
 }
     MokinioVidurkis(Mokinys1)
     MokinioVidurkis(Mokinys2)
-    MokinioVidurkis(Mokinys3)
+    MokinioVidurkis(Mokinys3)*/
+
 
 
 
