@@ -7,7 +7,8 @@ amziaus ribos kriterijus; >=18 metu.
 
 
 function isAdult (age) {
-if (age>= 18) {return 'suages' } else {return vaikas; }
+if (age>= 18) {return 'suages' } else {
+return vaikas; 
 
         console.log(isAdult(18), '--->', 'suauges')
         console.log(isAdult(21), '--->', 'suauges')
