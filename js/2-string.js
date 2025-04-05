@@ -90,7 +90,7 @@ console.clear()
 
 const studentName = 'Maryte'
 const amount = 4
-const student = studentName+' yra viena/s is '+ amount+ ' legendiniu studentu.'
+const student = studentName +' yra viena/s is '+ amount + ' legendiniu studentu.'
 console.log(student)
 
 console.log('Arba su backtiku')
@@ -133,7 +133,7 @@ const firstSymbol = s1 [0]
 const tekstas = `Zodyje "${s1}" pirmoji raide yra "${firstSymbol}"`
 console.log(tekstas)
   
-console.clear()
+
 
 
 
