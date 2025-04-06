@@ -154,20 +154,4 @@ tellNum(skaiciai1);
 console.clear()
 
 
-const miestai =["kaunas", 89, "klaipeda", 307, "marijampole", 159, "utena", 100]
-
-function   tmiestai (miestai, greitis, laikas)
-{
-let maksAtstumas = 0;
-let kelias = greitis*laikas;
-for(let i =0; i<miestai.length; i+=2)
-{
-console.log(miestai[i])
-if (mietsi[i+1]<= kelias && miestai[i+1]>max )
-{
-console.log('pasieks')
-}
-}
-
-}
 
