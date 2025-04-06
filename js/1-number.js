@@ -54,3 +54,4 @@ console.log(n1)
 
   sum2 += 5
   console.log(sum2)
+   console.log('aparatas')
