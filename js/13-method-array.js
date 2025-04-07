@@ -57,3 +57,48 @@ for (let i = 0; i < n2.length; i++) {
 }
 
 console.log(n12);
+
+console.clear()
+
+
+
+
+//Reikalingi produktai: a, b, c, d. Naudojat .join
+
+const texts = ['agurkas', 'pomidoras', 'svogunas', 'paprika']
+const produktai = `Reikalingi produktai: ${texts.join(', ')}.`
+
+console.log(produktai);
+
+console.clear();
+
+console.log(texts);
+texts.reverse();
+console.log(texts);
+texts.reverse();
+console.log(texts);
+
+
+console.clear();
+
+const c1 = [1, 11];
+const c2 = [2, 22];
+const c3 = [3, 33];
+const c4 = [4, 44];
+
+const c12 = c1.concat(c2);
+console.log(c12);
+
+const c34 = c3.concat(c4);
+console.log(c34);
+
+const c123 = c1.concat(c2).concat(c3);
+console.log(c123);
+
+const c1234 = c1.concat(c2, c3, c4);
+console.log(c1234);
+
+const c111 = c1.concat(c1, c1);
+console.log(c111);
+
+console.clear();
