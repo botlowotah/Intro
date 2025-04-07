@@ -1,3 +1,6 @@
+// PUSH iterpia skaiciu i gala
+
+
 const list = [];
 console.log(list);
 
@@ -58,7 +61,7 @@ for (let i = 0; i < n2.length; i++) {
 
 console.log(n12);
 
-console.clear()
+//console.clear()
 
 
 
@@ -70,7 +73,7 @@ const produktai = `Reikalingi produktai: ${texts.join(', ')}.`
 
 console.log(produktai);
 
-console.clear();
+//console.clear();
 
 console.log(texts);
 texts.reverse();
@@ -79,7 +82,7 @@ texts.reverse();
 console.log(texts);
 
 
-console.clear();
+//console.clear();
 
 const c1 = [1, 11];
 const c2 = [2, 22];
@@ -101,4 +104,4 @@ console.log(c1234);
 const c111 = c1.concat(c1, c1);
 console.log(c111);
 
-console.clear();
+//console.clear();

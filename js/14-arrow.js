@@ -51,3 +51,8 @@ const reverseString = text => text.split('').reverse().join('');
 console.log(reverseString('labas'));
 console.log(reverseString('kedes'));
 console.log(reverseString('alus'));
+
+const reverseString1 = text => text.split('');  //Is kur jis zino kur deti kablelius?
+console.log(reverseString1('labas'));
+console.log(reverseString1('kedes'));
+console.log(reverseString1('alus'));
