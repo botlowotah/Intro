@@ -1,3 +1,5 @@
+// for (const a of a`s)
+
 const marks = [10, 2, 8, 4, 6];
 let sum = 0;
 
@@ -29,3 +31,4 @@ for (const name of names) {
     });
 }
 console.log(nameSizes);
+

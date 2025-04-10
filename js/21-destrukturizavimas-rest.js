@@ -32,5 +32,7 @@ console.log(b12)
 const b123= {...b, ...b1,...b2}
 console.log(b123)
 
+//Math.min()
+
 
 
